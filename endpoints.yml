@@ -1415,6 +1415,72 @@ endpoints:
     version: '11'
     flavor: lxqt
     kernel: debian-11-live-kernel
+  arcticaclient-live-debian-bullseye-squash-amd64:
+    path: /debian-squash/releases/download/bullseye-153b65/
+    files:
+    - filesystem.squashfs
+    - initrd
+    - vmlinuz
+    os: arcticaclient-live-bullseye
+    version: bullseye
+    flavor: bullseye
+    kernel: arcticaclient-live-debian-bullseye-squash-amd64
+    arch: amd64
+  arcticaclient-live-debian-bullseye-squash-i686:
+    path: /debian-squash/releases/download/bullseye-153b65/
+    files:
+    - filesystem.squashfs
+    - initrd
+    - vmlinuz
+    os: arcticaclient-live-bullseye
+    version: bullseye
+    flavor: bullseye
+    kernel: arcticaclient-live-debian-bullseye-squash-i686
+    arch: i686
+  arcticaclient-live-debian-bullseye-squash-arm64:
+    path: /debian-squash/releases/download/bullseye-153b65/
+    files:
+    - filesystem.squashfs
+    - initrd
+    - vmlinuz
+    os: arcticaclient-live-bullseye
+    version: bullseye
+    flavor: bullseye
+    kernel: arcticaclient-live-debian-bullseye-squash-arm64
+    arch: arm64
+  arcticaclient-live-debian-bookworm-squash-amd64:
+    path: /debian-squash/releases/download/bookworm-153b65/
+    files:
+    - filesystem.squashfs
+    - initrd
+    - vmlinuz
+    os: arcticaclient-live-bookworm
+    version: bookworm
+    flavor: bookworm
+    kernel: arcticaclient-live-debian-bookworm-squash-amd64
+    arch: amd64
+  arcticaclient-live-debian-bookworm-squash-i686:
+    path: /debian-squash/releases/download/bookworm-153b65/
+    files:
+    - filesystem.squashfs
+    - initrd
+    - vmlinuz
+    os: arcticaclient-live-bookworm
+    version: bookworm
+    flavor: bookworm
+    kernel: arcticaclient-live-debian-bookworm-squash-i686
+    arch: i686
+  arcticaclient-live-debian-bookworm-squash-arm64:
+    path: /debian-squash/releases/download/bookworm-153b65/
+    files:
+    - filesystem.squashfs
+    - initrd
+    - vmlinuz
+    os: arcticaclient-live-bookworm
+    version: bookworm
+    flavor: bookworm
+    kernel: arcticaclient-live-debian-bookworm-squash-arm64
+    arch: arm64
   voyager-bullseye-squash:
     path: /debian-squash/releases/download/bullseye-31153b65/
     files:
